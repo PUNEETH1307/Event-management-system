@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Event Management</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>TECHNICAL EVENTS MANAGEMENT</h1>
+  <!-- <img src="/bg-img.jpg" alt=""> -->
+  <div class="form-section">
+      <div class="container1">
+      <h2> Event Details</h2>
+  <form id="eventForm">
+    <input type="text" name="event_name" placeholder="Event Name" required>
+    <input type="text" name="location" placeholder="Location" required>
+    <input type="date" name="event_date" required>
+    <button type="submit">Add Event</button>
+  </form>
+  </div>
+
+  <div class="container2">
+      <h2>Register Participant</h2>
+  <form id="regForm">
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="email" name="email" placeholder="Email" required>
+    <select name="event_id" id="eventSelect"></select>
+    <button type="submit">Register</button>
+  </form>
+  </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
